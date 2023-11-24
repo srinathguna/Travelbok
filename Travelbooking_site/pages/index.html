@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulting web</title>
+    <link rel="stylesheet" href="../dist/main.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="container" id="header"></header>
+        <div class="menu-bars" id="menu-bars" onclick="menu()">
+            <span class="line"></span>
+            <span class="line"></span>
+            <span class="line"></span>
+        </div>
+        <section class="banner container">
+            <div class="banner-block">
+                <img src="../images/banner.png" alt="banner">
+                <div class="banner-details">
+                    <h3>Enjoy Your Dream Vacation</h3>
+                    <p>Plan and book our perfect trip with expert advice, travel tips, destination<br> information and
+                        inspiration from us</p>
+                </div>
+            </div>
+            <div class="schedule" id="schedule">
+                <div class="location-box fields">
+                    <i class="icon">
+                        <img src="../images/icons/location.png" alt="">
+                    </i>
+                    <input type="text" name="" id="" placeholder="Where are you going?">
+                </div>
+                <div class="date-box fields">
+                    <i class="icon">
+                        <img src="../images/icons/calendar.png" alt="">
+                    </i>
+                    <input type="date" name="" id="" placeholder="Check in Date">
+                </div>
+                <div class="date-box fields">
+                    <i class="icon">
+                        <img src="../images/icons/calendar.png" alt="">
+                    </i>
+                    <input type="date" name="" id="" placeholder="Check out Date">
+                </div>
+                <div class="guest-box fields">
+                    <i class="icon">
+                        <img src="../images/icons/user-square.png" alt="">
+                    </i>
+                    <input type="text" name="" id="" placeholder="Guests">
+                </div>
+                <div class="search-box fields">
+                    <button id="search-btn" class="search-btn">Search</button>
+                </div>
+            </div>
+        </section>
+        <section class="container dream-vacation">
+            <div class="heading">
+                <h2>Enjoy your dream vacation</h2>
+                <p>Plan and book our perfect trip with expert advice, travel tips, destination information and <br>
+                    inspiration from us</p>
+            </div>
+            <ul class="card-list">
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/australia.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Australia</span>
+                        <span class="desc">2246 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/japan.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Japan</span>
+                        <span class="desc">1278 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/newzealand.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">New zealand</span>
+                        <span class="desc">480 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/greece.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Greece</span>
+                        <span class="desc">320 properties</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="container next-trip">
+            <div class="heading">
+                <h2>Get inspiration for your next trip</h2>
+            </div>
+            <ul class="card-list">
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/sydeny.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Sydeny’s 10 most fashionable 5 star hotels</span>
+                        <span class="desc">Browse the fastest growing tourism sector in the heart of Australia tourism
+                            capital ....</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/vegan.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Top cities for Vegan Travellers</span>
+                        <span class="desc">Top sites where you do not have to worry about being a vegan. Our tourist
+                            guide is here...</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/inspiration.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">World’s top destinations during and post covid timeline</span>
+                        <span class="desc">Pandemic is still intact and will be here for a longer time. Here’s where
+                            your next destination...</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="container popular-hotel">
+            <div class="heading">
+                <h2>Popular hotels</h2>
+            </div>
+            <ul class="card-list">
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/lakeside.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Australia</span>
+                        <span class="desc">2246 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/recce-graham.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Japan</span>
+                        <span class="desc">1278 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/fireside.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">New zealand</span>
+                        <span class="desc">480 properties</span>
+                    </div>
+                </li>
+                <li class="card">
+                    <div class="img-blk">
+                        <img src="../images/oculousinn.png" alt="">
+                    </div>
+                    <div class="card-details">
+                        <span class="name">Greece</span>
+                        <span class="desc">320 properties</span>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="container ad-banner">
+            <img src="../images/appad-banner.png" alt="app-banner">
+            <div class="ad-banner-details container">
+                <h4>Download the mobile application for bonus <br>couponsand travel codes</h4>
+                <button class="download-btn">Download mobile app</button>
+            </div>
+        </section>
+
+        <footer class="container footer" id="footer"></footer>
+    </div>
+    <script>
+        fetch('./header.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('header').innerHTML = data;
+            });
+        //
+        fetch('./footer.html')
+            .then(response => response.text())
+            .then(data => {
+                document.getElementById('footer').innerHTML = data;
+            });
+    </script>
+    <script src="../js/homepage.js"></script>
+</body>
+
+</html>
